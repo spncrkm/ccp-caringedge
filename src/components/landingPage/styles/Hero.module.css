@@ -7,5 +7,6 @@
 
 .hero_container img {
     height: 100%;
-    width: 90%;
+    width: 100%;
+    max-width: 1400px;
 }
