@@ -1,21 +1,22 @@
 import React from 'react'
 import { 
-  image1,
-  image2,
-  image3,
-  image4,
-  image5,
-  image6,
-  image7,
-  image8,
-  image9,
-  image10
+  MFHlogo,
+  MDSS,
+  moberly_school,
+  moberly_ymca,
+  moberlymedical,
+  healthdept,
+
  } from '../../assets'
 
 
 const images = [
-  image1, image2, image3, image4, image5,
-  image6, image7, image8, image9, image10
+  MFHlogo,
+  MDSS,
+  moberly_school,
+  moberly_ymca,
+  moberlymedical,
+  healthdept
 ];
 
 
@@ -29,6 +30,9 @@ const Features = () => {
           </div>
         ))}
       </div>
+        <div className='partner-text'>
+          <h1>Partners</h1>
+        </div>
     </div>
   )
 }

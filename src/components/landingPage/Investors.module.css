@@ -1,0 +1,102 @@
+
+
+.invest_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.grid1 {
+    display: flex;
+    justify-content: center;
+    /* border-left: 1px solid white; */
+}
+
+.grid2 {
+    display: flex;
+    justify-content: center;
+}
+
+.invest_container p {
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.innovative_container img {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}
+
+.innovative_container {
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.innovative_image {
+    float: left;
+    margin: 0 1em 1em 0;
+    border: 3px solid rgb(54, 190, 184);
+}
+
+.bridges_img {
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin: 0 1em 1em 0;
+    border-radius: 100%;
+    border: 3px solid rgb(54, 190, 184);
+}
+
+.bridges_container {
+    padding-left: 80px;
+    padding-right: 80px;
+    border-left: 1px solid white;
+    background-position: 50% 100%;
+}
+
+.bridges_container p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.btn_info {
+    background-color: rgba(85, 85, 197, 0.897);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 0 0.2em blue;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.text_blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    color: white;
+}
+
+.btn_info:hover {
+    background-color: rgba(101, 101, 168, 0.897);
+    border: 2px solid white;
+    box-shadow: 0 0 1em white;
+}
+
+.h1text {
+    color: white;
+    font-size: 60px;
+    text-shadow: 0 0 1em white;
+    text-align: center;
+}
+
+#h1_year {
+    padding-top: 60px;
+}

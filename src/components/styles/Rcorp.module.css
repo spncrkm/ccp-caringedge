@@ -1,0 +1,86 @@
+
+.main {
+    background-color: rgb(10, 10, 10);
+    color: black;
+    height: 100%;
+    width: 100vw;
+    margin: 0;
+    box-sizing: border-box;
+    padding-bottom: 2em;
+}
+
+.innovative_container img {
+    height: 300px;
+    width: 300px;
+    border: 3px solid rgb(54, 190, 184);
+    margin: 4em 0;
+}
+
+.innovative_container {
+    display: flex;
+    justify-content: center;
+}
+
+.text_container {
+    margin: 0 14em;
+    padding: 1em 4em;
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(0deg, rgb(224, 224, 224) 50%, rgba(150, 206, 150, 0.815) 100%);
+    border-radius: 12px;
+}
+
+.text_container2 {
+    margin: 0 14em;
+    padding: 1em 4em;
+    margin-top: 4em;
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(0deg, rgb(224, 224, 224) 50%, rgba(199, 169, 235, 0.815) 100%);
+    border-radius: 12px;
+}
+
+.text_container3 {
+    margin: 0 14em;
+    padding: 1em 4em;
+    margin-top: 4em;
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(0deg, rgb(224, 224, 224) 50%, rgba(164, 180, 233, 0.815) 100%);
+    border-radius: 12px;
+}
+
+.text_container4 {
+    margin: 0 14em;
+    padding: 1em 4em;
+    margin-top: 4em;
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(0deg, rgb(224, 224, 224) 50%, rgba(117, 92, 77, 0.63) 100%);
+    border-radius: 12px;
+}
+.text_container5 {
+    margin: 0 14em;
+    padding: 1em 4em;
+    margin-top: 4em;
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(0deg, rgb(224, 224, 224) 50%, rgba(221, 145, 183, 0.644) 100%);
+    border-radius: 12px;
+}
+.text_container6{
+    margin: 0 14em;
+    padding: 1em 4em;
+    margin-top: 4em;
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(0deg, rgb(224, 224, 224) 50%, rgba(146, 216, 207, 0.815) 100%);
+    border-radius: 12px;
+}
+
+.main h3 {
+    margin-left: 4em;
+    padding-left: 2em;
+    font-size: 22px;
+    color: white;
+}
+
+.h3text {
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}

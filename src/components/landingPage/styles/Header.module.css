@@ -7,7 +7,7 @@
     height: 200px;
     justify-content: space-around;
     align-items: center;
-    background: linear-gradient(45deg, white 0%, #757ad6ed 70%, var(--blue) 100%);
+    background: transparent;
     margin: 0;
     font-family: Poppins, Inter, Arial, Helvetica, sans-serif;
 }
@@ -37,7 +37,7 @@
 }
 
 .nav_links:hover {
-    color: rgb(61, 104, 153);
+    color: #2F8BA1;
 }
 
 .phone {
@@ -90,5 +90,11 @@
     }
     .phone {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .header {
+        margin: auto;
     }
 }

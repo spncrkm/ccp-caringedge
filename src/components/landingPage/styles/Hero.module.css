@@ -1,12 +1,50 @@
 .hero_container {
     display: flex;
-    width: 100%;
-    height: 800px;
+    box-sizing: border-box;
+    width: 80%;
+    height: 1000px;
     justify-content: center;
+    margin: 100px auto;
+    position: relative;
+    background-clip: border-box;
+    background: url('../../../assets/handsheart.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-blend-mode:darken;
 }
 
-.hero_container img {
+.hero_circles {
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    background-image: radial-gradient(ellipse at 50% 50%,transparent, rgb(10,10,10) 60%);
+    /* opacity: 80%; */
+    z-index: 2;
+}
+
+/* .hero_container img {
     height: 100%;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1600px;
+} */
+
+
+.hero_text {
+    position: absolute;
+    color: #ffffffed;
+    text-align: center;
+    font-size: 3rem;
+    -webkit-text-stroke: 2px white;
+    top: 7em;
+    text-shadow: 0 0 0.9em white;
+    z-index: 3;
 }
+
+.span_text{
+    color: #2F8BA1;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #a3d8e6;
+}
+
+/* 2F8BA1 */

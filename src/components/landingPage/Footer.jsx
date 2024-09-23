@@ -1,9 +1,12 @@
 import React from 'react'
+import styles from './styles/Footer.module.css'
 
 const Footer = () => {
   return (
-    <div>
-      Footer
+    <div className={styles.footer_container}>
+      <div className={styles.footer_text}>
+        <p>&copy; Randolph County Caring Communities Partnership. All Rights Reserved.</p>
+      </div>
     </div>
   )
 }

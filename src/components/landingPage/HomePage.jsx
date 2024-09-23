@@ -6,14 +6,16 @@ import Investors from './Investors'
 import Footer from './Footer'
 
 import './HomePage.css'
+import HeroLast from './HeroLast'
 
 const HomePage = () => {
   return (
     <div className='main_container'>
       <Header />
       <Hero />
-      <Features />
       <Investors />
+      <Features />
+      <HeroLast />
       <Footer />
     </div>
   )

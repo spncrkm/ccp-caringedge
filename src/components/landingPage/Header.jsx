@@ -20,7 +20,7 @@ const Header = () => {
         <nav className={`${styles.nav} ${show ? styles.show : ''}`}>
             <a href='/' className={styles.nav_links}>Home</a>
             <a className={styles.nav_links}>About Us</a>
-            <a className={styles.nav_links}>Menu</a>
+            <a className={styles.nav_links}>Projects</a>
             <div className={styles.phone}>
                 <i className='fas fa-phone-alt' />
             <a href='tel:16602637173' target='_blank' role='link' rel='noopener' className={styles.nav_links}>(660) 263-7173</a>

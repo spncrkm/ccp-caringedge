@@ -1,0 +1,17 @@
+
+
+.footer_container {
+    display: flex;
+    height: 100px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
+.footer_text {
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+
+/*rgb(201,228,255)*/
