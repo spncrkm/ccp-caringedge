@@ -34,6 +34,7 @@
     color: rgb(255, 255, 255);
     padding: 0 .3em;
     margin: 0 10px;
+    cursor: pointer;
 }
 
 .nav_links:hover {
@@ -49,6 +50,7 @@
 
 .navicon {
     display: none;
+    color: white;
     cursor: pointer;
 }
 
@@ -58,6 +60,7 @@
     }
     .navicon {
         display: block;
+        color: white;
     }
     .nav {
         display: none;

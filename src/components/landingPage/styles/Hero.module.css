@@ -48,3 +48,9 @@
 }
 
 /* 2F8BA1 */
+
+@media screen and (max-width: 430px) {
+    .hero_text {
+        font-size: 1.5em;
+    }
+}

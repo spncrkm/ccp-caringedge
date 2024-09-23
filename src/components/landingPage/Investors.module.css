@@ -21,7 +21,7 @@
 .invest_container p {
     font-size: 18px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     color: white;
 }
 
@@ -60,7 +60,7 @@
 
 .bridges_container p {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     color: white;
 }
 
@@ -99,4 +99,24 @@
 
 #h1_year {
     padding-top: 60px;
+}
+
+@media screen and (max-width: 1320px) {
+    .invest_container {
+        margin: auto;
+    }
+    .h1text {
+        margin: 4em;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .invest_container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .h1text {
+        margin:auto;
+
+    }
 }
