@@ -14,14 +14,15 @@
     background-blend-mode:darken;
 }
 
-/* .hero_circles {
+.hero_circles {
     width: 100%;
     height: 100%;
     position:absolute;
-    background-image: radial-gradient(ellipse at 50% 50%,transparent, rgb(10,10,10) 60%);
+    background-image: linear-gradient(to right, black 10%, transparent, black 90%);
+    /* background-image: radial-gradient(ellipse at 50% 50%,transparent, rgb(10,10,10) 70%); */
     /* opacity: 80%; */
     /* z-index: 2; */
-/* } */ 
+ }  
 
 /* .hero_container img {
     height: 100%;
