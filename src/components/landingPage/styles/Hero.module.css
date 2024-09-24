@@ -34,10 +34,10 @@
 .hero_text {
     position: absolute;
     color: #ffffffed;
-    text-align: center;
-    font-size: 3rem;
+    text-align: left;
+    font-size: 5em !important;
     -webkit-text-stroke: 2px white;
-    top: 7em;
+    top: 2em;
     text-shadow: 0 0 0.9em white;
     z-index: 3;
 }
